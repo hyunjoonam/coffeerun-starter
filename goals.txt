@@ -1,0 +1,16 @@
+Please tackle these high level goals:
+
+Create a section of the website that will hold a list of all orders that were submitted
+When the user submits the form, add the new coffee order to the list
+When the user hits the reset button, clear out the form
+Some stretch goals:
+
+Make coffee orders delete-able
+Keep a list of all orders submitted in localStorage (You can store an array in localStorage as a string by using JSON.stringify(myCoffeeOrdersArray); )
+If you can succesfully do that ^^, then make the list of saved coffee orders render when the page first loads
+Update the list of orders on the screen and in localStorage each time the user submits the form.
+Advice:
+
+Do break your code up into functions + global variables. (think about what your state and actions are)
+Do try to move "hard-coded" values into variables/constants. (For example, if you keep typing the same selector string over and over, that's a good sign that you should create a global variable.)
+Try writing a "renderOrders()" function that will show the list of orders to the screen based on your global state variables
